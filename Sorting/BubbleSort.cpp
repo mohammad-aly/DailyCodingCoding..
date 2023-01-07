@@ -1,8 +1,12 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//finding for the best position for the element
+//by comparing adjacent elements n-1-i
+
+
 //TC : O(N*N)
-//SC : O(1)
+//SC : O(1) 
 
 void Selection(int arr[], int n){
 
@@ -65,7 +69,7 @@ int main(){
     Selection(arr, n);
 
     cout<<endl;
-    
+
     SelectionEff(arr,n);
 
     return 0;

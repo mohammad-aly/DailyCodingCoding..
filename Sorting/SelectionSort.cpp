@@ -1,6 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
+//finding for the best element for the position
+//by comparing with all n-1 elements
+
 void Selection(int arr[], int n){
 
     for(int i=0; i<n-1; i++){
