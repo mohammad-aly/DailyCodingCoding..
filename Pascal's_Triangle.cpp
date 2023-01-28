@@ -11,6 +11,7 @@
 // 1   4   6   4    1   -> 4
 
 // take the previous filled 1's row and add them and fill into the new vector position
+// [previous_row][current_col] + [previous_row][current_col - 1] upto col-1
 // temp[j] = ans[i-1][j] + ans[i-1][j-1];
 // add them into answer vector
 
